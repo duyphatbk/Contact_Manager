@@ -2,7 +2,7 @@
 A Simple Project about CRUD and Searching using ReactJS
 ## :electric_plug: Set up
 ```sh
-cd: ./contact-app/npm install
+cd ./contact-app/npm install
 ```
 ```sh
 cd ./server/npm install
