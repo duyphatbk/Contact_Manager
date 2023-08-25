@@ -14,18 +14,18 @@ const ContactCard = (props) => {
                     <div className="header">{props.contact.email}</div>
                 </Link>
             </div>
-            <Link to={{ pathname: `/edit/${props.contact.id}` }}>
-                <i
-                    className="edit alternate outline icon"
-                    style={{ color: "blue" }}
-                />
-            </Link>
             <Link to={{ pathname: `/` }}>
                 <i className="trash alternate outline icon"
                     style={{ color: 'red', float: "right" }}
                     onClick={() => props.removeContact(props.contact.id)}
                 />
             </Link>
+            <Link to={{ pathname: `/edit/${props.contact.id}` }}>
+                <i
+                    className="edit alternate outline icon"
+                    style={{ color: "blue", float: "right" }}
+                />
+            </Link>           
         </div>
     );
 }

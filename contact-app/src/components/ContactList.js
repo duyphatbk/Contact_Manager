@@ -19,7 +19,7 @@ const ContactList = (props) => {
         props.searchKeyWord(inputEl.current.value);
     }
     return (
-        <div className="main" style= {{ paddingTop: "50px", margin: "auto", width: "50%" }}>
+        <div className="main" style= {{ paddingTop: "70px", margin: "auto", width: "50%" }}>
             <h2>
                 Contact List
             </h2>

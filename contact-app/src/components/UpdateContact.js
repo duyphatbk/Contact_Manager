@@ -32,8 +32,8 @@ const EditContact = (props) => {
     }
 
     return (
-        <>
-            <h2 style={{ marginTop: 80 }}>Update Contact</h2>
+        <div className="main" style= {{ margin: "auto", width: "50%" }}>
+            <h2 style={{ marginTop: 75 }}>Update Contact</h2>
             <div className="ui main">
                 <form className="ui form" onSubmit={update}>
                     <div className="field">
@@ -58,7 +58,7 @@ const EditContact = (props) => {
                     <button className="ui button blue">Save</button>
                 </form>
             </div>
-        </>
+        </div>
     );
 }
 export default EditContact;
