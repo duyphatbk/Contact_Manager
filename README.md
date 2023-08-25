@@ -1,6 +1,8 @@
-# Contact_Manager
-A Simple Project about CRUD and Searching using ReactJS
 # Introduction
-- Add your project logo.
-- Write a short introduction to the project.
-- If you are using badges, add them here.
+A Simple Project about CRUD and Searching using ReactJS
+## :electric_plug: Set up
+- cd ./contact-app/npm install
+- cd ./server/npm install
+## :hammer: Build
+- cd ./server/npm start
+- cd./contact-app/npm start
